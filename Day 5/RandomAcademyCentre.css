@@ -1,0 +1,15 @@
+.random-academy-centre-container {
+  margin-top:   2rem;
+}
+
+.random-academy-centre-form {
+  display: flex;
+  flex-direction: column;
+  gap:   1rem;
+  max-width:   600px;
+  margin:   0 auto;
+}
+
+.random-academy-centre-form > * {
+  width:   100%;
+}

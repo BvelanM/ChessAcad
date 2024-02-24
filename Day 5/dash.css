@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Micro+5&display=swap");
+.container-glow {
+  box-shadow: 4px 4px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.edit-button:hover {
+  background-color: #daa520;
+  color: #000000;
+  border: #000000 solid;
+}
+
+.profile {
+  position: "absolute";
+  right: 0;
+  color: "black";
+  border: "none";
+  display: "flex";
+  flex-direction: "column";
+  justify-content: center;
+  background-color: #daa520;
+  padding: 20px;
+  padding-bottom: 20px !important;
+  height: 100vh;
+}
+.condRenderTextField {
+  font-weight: bold;
+  padding: 1rem !important;
+  border: none !important;
+  transform: translate(-14px, -14px) scale(0.9) !important;
+}
+.container-form {
+  display: block;
+  padding: 0;
+}
+
+.condRenderTextField {
+  transition: all 1s ease-in-out;
+  transform: translateY(-100%);
+  opacity: 0;
+}
+.condRenderTextField.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+.microf {
+  font-family: "Micro 5" !important;
+  font-size: 50px !important;
+  margin: 0px !important;
+}
